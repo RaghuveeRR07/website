@@ -1,0 +1,62 @@
+.homepage-body{
+    background-color: black;
+    display: flex;
+    height: max-content;
+    padding: 0px 100px;
+}
+
+.intro-space{
+    width: 50%;
+    margin: 100px 0px;
+}
+
+.intro-text1{
+    color: #69b5ce;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.intro-text2{
+    color: #6990ce;
+    font-weight: 600;
+    font-size: 16px;
+    width: 400px;
+}
+
+.typewrite{
+    color: #ff7322;
+    font-weight: 600;
+    margin: 3px 0px;
+    font-size: 25px;
+}
+
+.logo{
+    width: 50%;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.logo-img{
+    width: 50%;
+}
+
+.intro-button{
+    background-color: black;
+    height: 42px;
+    color: white;
+    width: 90px;
+    outline: none;
+    border: none;
+    margin: 20px 20px 20px 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 300ms;
+    box-shadow: 2px 2px 3px rgb(255, 255, 255);
+    &:hover {
+        background-color: white;
+        color: black;
+        box-shadow: none;
+    }
+}
