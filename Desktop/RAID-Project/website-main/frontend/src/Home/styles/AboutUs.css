@@ -1,0 +1,62 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  /* About Us Section Styles */
+  .about-us {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    background-color: black;
+    padding: 50px 20px;
+  }
+  
+  .about-us.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .section-underline {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto 30px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .vision {
+    font-size: 25px;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .lorem-text {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+  }
+  

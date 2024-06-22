@@ -1,0 +1,79 @@
+.publs-page{
+    background-color: black;
+    color: white;
+}
+
+.publs-main{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+}
+
+.publs-card{
+    background-color: rgba(133, 176, 255, 0.308);
+    color: black;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 8px;
+    transition: 200ms;
+    overflow-y: hidden;
+    &:hover{
+        background-color: #ff2f00c9;
+        box-shadow: 0px 8px 15px rgba(255, 0, 0, 0.555);
+        .publs-card-header, .publs-card-title, .publs-card-keywords{
+            filter: opacity(0.25);
+        }
+        .publs-card-hider{
+            transform: translate(10px,-240px);
+            visibility: visible;
+            color: white;
+            width: 210px;
+        }
+    }
+}
+
+.publs-card-img{
+    width: 230px;
+    height: 140px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 0, 123, 0.842);
+}
+
+.publs-card-title{
+    color: white;
+    font-weight: 600;
+    padding: 10px 10px 2px 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.publs-card-conference{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.publs-card-keywords{
+    color: rgb(210, 222, 255);
+    width: 220px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.publs-card-hider{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.keyword{
+    padding: 2px 10px;
+    font-size: 12px;
+    border: 1px solid rgb(187, 206, 255);
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    margin: 5px;
+}
